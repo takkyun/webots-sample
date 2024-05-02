@@ -25,7 +25,7 @@ from numpy import pi, cos, sin
 
 # calibration for an accurate odometry
 INCREMENTS_PER_TOUR = 1000.0;   # from e-puck.org
-AXIS_WHEEL_RATIO = 1.4134;      # from e-puck.org
+AXIS_WHEEL_RATIO = 1.293;      # from e-puck.org
 WHEEL_DIAMETER_LEFT = 0.0416;   # from e-puck.org
 WHEEL_DIAMETER_RIGHT = 0.0404;  # from e-puck.org
 SCALING_FACTOR = 0.976;         # default is 1
